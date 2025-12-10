@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner Sc=new Scanner(System.in);
+        //char ch = Sc.next().charAt(0);
+        String str = Sc.nextLine();
+        String str1=Sc.nextLine();
+        System.out.print("\""+str+" "+str1+"\"");
+       // System.out.print("\""+str1+"\"");
+       
+        
+    }
+}
