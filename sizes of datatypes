@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner Sc=new Scanner(System.in);
+      //  int a= Sc.nextInt();
+       System.out.println(Character.BYTES);
+       System.out.println(Integer.BYTES);
+       System.out.println(Float.BYTES);
+       System.out.println(Double.BYTES);
+    }
+}
