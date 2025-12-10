@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner Sc=new Scanner(System.in);
+       // String str=Sc.nextLine();
+       //float z = Sc.nextFloat();
+       int a =Sc.nextInt();
+       //String hex = Integer.toHexString(a);
+       
+        System.out.println(Integer.toHexString(a));
+    }
+}
