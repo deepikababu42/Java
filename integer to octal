@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner Sc=new Scanner(System.in);
+       // String str=Sc.nextLine();
+       //float z = Sc.nextFloat();
+       int a =Sc.nextInt();
+       String Oct= Integer.toOctalString(a);
+       
+        //System.out.println(Integer.toOctString(a));
+        System.out.printf(Oct);
+    }
+}
