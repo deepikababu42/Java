@@ -1,0 +1,10 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner Sc=new Scanner(System.in);
+        int date = Sc.nextInt();
+       // String month = Sc.next();
+        //String year = Sc.next();
+        System.out.println("+"+ date);
+    }
+}
