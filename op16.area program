@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        //area of rectangle
+        int length = sc.nextInt();
+        int breadth = sc.nextInt();
+        int area = length*breadth;
+        System.out.println(area);
+//area of square
+        int side = sc.nextInt();
+        int s_area = side*side;
+        System.out.println(s_area);
+        //area of triangle
+        int base = sc.nextInt();
+        int height = sc.nextInt();
+        int t_area = (base*height)/2;
+        System.out.println(t_area);
+        //area of Circle
+        int r = sc.nextInt();
+       double pi = 3.14f; //sc.nextFloat();
+        double  c_area = pi *r *r;
+        System.out.printf("%.2f" ,c_area);
+    }
+    }
