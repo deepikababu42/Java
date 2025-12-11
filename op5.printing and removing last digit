@@ -5,5 +5,7 @@ public class Main{
             int num = sc.nextInt();
             int lastdigit = num%10;
             System.out.println(lastdigit);
+            int removelast = num/10;
+            System.out.println(removelast);
         }
     }
