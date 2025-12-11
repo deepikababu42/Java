@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+       int len = sc.nextInt();
+       int breadth = sc.nextInt();
+       int perimeter = 2*(len+breadth);
+       System.out.println(perimeter);
+  //perimeter of square
+       int side = sc.nextInt();
+       int peri_s = 4*side;
+       System.out.println(peri_s);
+       //perimeter of triangle
+       int peri_t = len+breadth+side;
+       System.out.println(peri_t);
+       //perimeter of Circle
+       double r =sc.nextDouble();
+       double peri_c = 2*3.14f*r;
+       System.out.println(peri_c);  
+    }
+    }
