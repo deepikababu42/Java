@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        double basicpay = sc.nextDouble();
+        double allowance = sc.nextDouble();
+        double deduction = sc.nextDouble();
+        double totalsalary = basicpay+allowance-deduction;
+        System.out.println(totalsalary);
+        
+    }
+}
