@@ -1,0 +1,10 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int candies = sc.nextInt();
+        int noofpeople = sc.nextInt();
+        int candiesdistributed = candies/noofpeople;
+        System.out.println(candiesdistributed);
+    }
+}
