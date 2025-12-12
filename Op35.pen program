@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int priceperpen = sc.nextInt();
+        int totalpens = sc.nextInt();
+        int sets = totalpens/5;
+        int paidpens = sets*3;
+        int leftover = totalpens%5;
+        int totalpaidpens = paidpens+leftover;
+        int totalamount = totalpaidpens*priceperpen;
+        System.out.println(sets);
+        System.out.println(paidpens);
+        System.out.println(leftover);
+        System.out.println(totalpaidpens);
+        System.out.println(totalamount);
+        
+    }
+}
