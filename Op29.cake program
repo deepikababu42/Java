@@ -1,0 +1,10 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int cakesperday = sc.nextInt();
+        int numberofdays = sc.nextInt();
+        int totalcakes = cakesperday * numberofdays;
+        System.out.println(totalcakes);
+    }
+}
