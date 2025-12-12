@@ -1,0 +1,35 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        double r = sc.nextDouble();
+        double circumference = 2*3.14f*r;
+        System.out.printf("%.2f",circumference);
+        //cube - surface area ,volume,perimeter
+        double a = sc.nextDouble();
+        double sa = 6*a*a;
+      // double volume = a*a*a;
+        System.out.printf("%.2f\n",sa);
+        double volume = a*a*a;
+        System.out.println(volume);
+        //cuboid -surface area ,volume
+        int len = sc.nextInt();
+        int bre = sc.nextInt();
+        int height = sc.nextInt();
+        int sa_c = 2*(len*bre + bre*height + height*len);
+        System.out.println(sa_c);
+        int v = len*bre*height;
+        System.out.println(v);
+        //sphere
+        double sa_s = 4*3.14*r*r;
+        System.out.println(sa_s);
+        double v1 = 1*3.14f*r*r*r;
+        System.out.printf("%.2f\n",v1);
+        //cyclinder
+        double sa_cy = 2*3.14*r*(r+height);
+        System.out.println(sa_cy);
+        double vol_cy=3.14*r*r*height;
+        System.out .println(vol_cy);
+        
+    }
+}
