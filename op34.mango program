@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int pricepermango = sc.nextInt();
+        int totalmangoes = sc.nextInt();
+        int sets = totalmangoes/4;
+        int paidmangoes = sets*3;
+        int leftover = totalmangoes%4;
+        int totalpaidmangoes = paidmangoes+leftover;
+        int totalamount = totalpaidmangoes*pricepermango;
+        System.out.println(sets);
+        System.out.println(paidmangoes);
+        System.out.println(leftover);
+        System.out.println(totalpaidmangoes);
+        System.out.println(totalamount);
+        
+    }
+}
