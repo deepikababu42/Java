@@ -6,6 +6,8 @@ public class Main{
         double discountpercent = sc.nextDouble();
         double discountamount = originalprice*discountpercent/100;
         System.out.println(discountamount);
+       double finalprice = originalprice - discountamount;
+System.out.println(finalprice);
         
     }
 }
