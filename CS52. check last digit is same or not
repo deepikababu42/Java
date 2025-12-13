@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int a =sc.nextInt();
+        int b = sc.nextInt();
+        int last1 = a%10;
+        int last2 = b%10;
+        System.out.println(last1);
+        System.out.println(last2);
+        if(last1==last2){
+            System.out.println("Two numbers have same last digit");
+        }
+        else{
+            System.out.println("Not have same last digit");
+        }
+    }
+}
