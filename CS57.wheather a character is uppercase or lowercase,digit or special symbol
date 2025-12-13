@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        char ch = sc.next().charAt(1);
+        //int ascii = (int) ch;
+        if(ch>='A'&&ch<='Z'){
+            System.out.println("Uppercase");
+        }
+        else if(ch>='a'&&ch<='z'){
+            System.out.println("lowercase");
+        }
+        else if(ch>='0'&&ch<='9'){
+            System.out.println("Digits");
+        }
+        else{
+            System.out.println("Special Symbol");
+        }
+        
+    }
+}
