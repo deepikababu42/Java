@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        if(age<=12){
+            System.out.println("Child");
+            System.out.println("price:50");
+        }
+        else if(age>12&&age<60){
+            System.out.println("adult");
+            System.out.println("price:100");
+        }
+     //   else if(){
+       //     System.out.println("Hot");
+        //}
+        else{
+            System.out.println("Senior");
+            System.out.println("price:70");
+        }
+        
+    }
+}
