@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        String mobileNo = sc.nextLine();
+       // int length = sizeof(mobileNo)/sizeof(mobileNo[0]);
+        if(mobileNo.length()==10){
+            System.out.println("Valid number");
+        }
+        else{
+            System.out.println("Invalid number");
+        }
+        
+    }
+}
