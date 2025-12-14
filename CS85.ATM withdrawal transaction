@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int withdrawalamount = sc.nextInt();
+        int balance = 6000;
+        if(withdrawalamount<=balance&&withdrawalamount%100==0){
+            System.out.println("Withdrawal allowed");
+        }
+        else{
+            System.out.println("Transaction denied");
+        }
+    }
+}
