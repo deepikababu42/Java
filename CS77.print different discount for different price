@@ -1,0 +1,29 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        int billamount = sc.nextInt();
+        if(billamount>=5000){
+            double discount = billamount*20/100;
+            double finalamount = billamount-discount;
+            System.out.println(discount);
+            System.out.println(finalamount);
+        }
+        else if(billamount>=2000){
+           double discount = billamount*10/100;
+           double finalamount = billamount-discount;
+           System.out.println(discount);
+            System.out.println(finalamount);
+        }
+        else if(billamount>=1000){
+           double discount = billamount*5/100;
+           double finalamount = billamount-discount;
+           System.out.println(discount);
+            System.out.println(finalamount);
+        }
+        else{
+            System.out.println("No discount");
+            System.out.println(billamount);
+        }
+    }
+}
