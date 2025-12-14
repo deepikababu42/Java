@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int dataused = sc.nextInt();
+       // int length = sizeof(mobileNo)/sizeof(mobileNo[0]);
+        if(dataused<30){
+            System.out.println("Lowdata");
+        }
+        else if(dataused<=50){
+            System.out.println("Halfconsumed");
+        }
+        else{
+            System.out.println("Data Over");
+        }
+    }
+}
