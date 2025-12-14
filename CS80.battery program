@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        int batterypercent = sc.nextInt();
+        if(batterypercent==100){
+            System.out.println("Full battery");
+        }
+        else if(batterypercent<100&&batterypercent>=50){
+            System.out.println("50% consumed");
+        }
+        else if(batterypercent<=20){
+            System.out.println("low battery");
+        }
+        else{
+            System.out.println("battery normal");
+        }
+    }
+}
