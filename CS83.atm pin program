@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int fixedpin = 38;
+        int enteredpin = sc.nextInt();
+        if(fixedpin==enteredpin){
+            System.out.println("Withdrawl allowed");
+        }
+        else{
+            System.out.println("withdrawl not allowed");
+        }
+    }
+}
