@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int digit = sc.nextInt();
+       boolean isfound = false;
+        while(num>0){
+            int  d= num%10;
+            if(d==digit){
+                isfound = true;
+                break;
+            }
+        num = num/10;
+        }
+        if(isfound){
+            System.out.println("Digit found");
+        }
+        else{
+            System.out.println("Digit not found");
+        }
+    }
+}
