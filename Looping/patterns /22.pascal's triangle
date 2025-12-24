@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner Sc=new Scanner(System.in);
+        int n = Sc.nextInt();
+        //int num=1;
+        for(int i=1;i<=n;i++){
+            int num=1;
+            for(int s=1;s<=n-i;s++){
+                System.out.print(" ");
+            }
+        for(int j=1;j<=i;j++){
+            System.out.print(num +" ");
+        num=num*(i-j)/j;
+        }
+        System.out.println(); 
+        }
+        
+        
+    }
+}
